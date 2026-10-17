@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "PayBuddy",
+    "slug": "paybuddy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "paybuddy",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        { "cameraPermission": "Allow PayBuddy to scan QR codes" }
+      ]
+    ],
+    "android": { "package": "com.paybuddy.app" },
+    "ios": { "bundleIdentifier": "com.paybuddy.app" }
+  }
+}
