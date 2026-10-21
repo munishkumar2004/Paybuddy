@@ -6,15 +6,20 @@
     "orientation": "portrait",
     "scheme": "paybuddy",
     "userInterfaceStyle": "light",
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "plugins": [
-      "expo-router",
       [
         "expo-camera",
-        { "cameraPermission": "Allow PayBuddy to scan QR codes" }
+        {
+          "cameraPermission": "Allow PayBuddy to scan QR codes"
+        }
       ]
     ],
-    "android": { "package": "com.paybuddy.app" },
-    "ios": { "bundleIdentifier": "com.paybuddy.app" }
+    "android": {
+      "package": "com.paybuddy.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.paybuddy.app"
+    }
   }
 }
